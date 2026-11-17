@@ -1,0 +1,44 @@
+BALA GRAPHICS - DESIGN CATALOGUE GUIDE
+
+MAIN DESIGN CATEGORIES
+- Wedding
+- Invitation
+- Photo Frame
+- Litho
+
+WEDDING SAMPLE ASSIGNMENTS
+Sample images are assigned to all requested sizes so every size filter has a design to display:
+5X8   - Rs. 600 - wedding-banner.jpg
+10X5  - Rs. 700 - wedding-banner-02.jpg
+10X8  - Rs. 1,000 - wedding-banner-03.jpg
+12X8  - Rs. 1,200 - wedding-banner-04.jpg
+10X10 - Rs. 1,200 - wedding-banner.jpg (sample reuse)
+15X8  - Rs. 1,500 - wedding-banner-02.jpg (sample reuse)
+20X8  - Rs. 2,000 - wedding-banner-03.jpg (sample reuse)
+
+INVITATION SAMPLE ASSIGNMENTS (NO PRICES ARE DISPLAYED)
+Offset:
+- A4: marriage-invitation.jpg
+- Friends Card: marriage-invitation-02.jpg
+- Premium Cards: marriage-invitation-03.jpg
+
+Multicolor:
+- A4: marriage-invitation-04.jpg
+- A5: marriage-invitation-02.jpg (sample reuse)
+- A3: marriage-invitation-03.jpg (sample reuse)
+- 22X17: marriage-invitation.jpg (sample reuse)
+
+PHOTO FRAME AND LITHO
+Sample previews are assigned from the existing project artwork so these categories are not empty.
+Replace these with actual Photo Frame and Litho artwork when available.
+
+HOW TO ADD YOUR OWN DESIGNS
+Edit js/script.js and add an object to the `designs` array. Use:
+- category: "Wedding", "Invitation", "Photo Frame", or "Litho"
+- For Wedding, set size to one of the exact wedding size labels above.
+- For Invitation, set invitationType to "Offset" or "Multicolor" and size to the exact matching subcategory.
+- Set image and downloadFile to the image path inside the images folder.
+- Do not add prices to invitation designs.
+
+NOTE
+The same sample image is reused for some sizes because the project only contains a limited number of sample artworks. These are demonstration assignments, not confirmation that the artwork is the final design for that print size.
